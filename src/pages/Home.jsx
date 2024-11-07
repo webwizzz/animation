@@ -33,7 +33,7 @@ useEffect(() => {
     const clampedPercentage = Math.min(Math.max(percentage, 0), 1);
 
     // Update the strokeDasharray and strokeDashoffset values
-    const offset = pathLength - (pathLength * clampedPercentage * 1.4); // Adjust for desired speed
+    const offset = pathLength - (pathLength * clampedPercentage * 1.3); // Adjust for desired speed
 
     path.style.strokeDasharray = pathLength;
     path.style.strokeDashoffset = offset;
