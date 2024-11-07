@@ -1,5 +1,5 @@
 import Cards from "@/components/Cards";
-import Footer from "@/components/Footer";
+
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
@@ -184,7 +184,7 @@ useEffect(() => {
 
         {/* Our Products */}
         <OurProducts />
-        <Footer/>
+        
       </div>
       
     </div>

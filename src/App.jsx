@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import LocomotiveScroll from "locomotive-scroll";
+import Footer from "./components/Footer";
 
 function App() {
   const scrollRef = useRef(null); // Initialize scrollRef
@@ -40,6 +41,7 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* Add other routes as needed */}
       </Routes>
+      <Footer/>
     </div>
   );
 }
