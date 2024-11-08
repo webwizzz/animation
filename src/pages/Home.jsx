@@ -55,7 +55,7 @@ useEffect(() => {
   
 
   return (
-    <div className=" scrollContainer w-full h-full overflow-hidden bg-no-repeat" ref={svgContainerRef}>
+    <div className=" scrollContainer w-full h-517 overflow-hidden bg-no-repeat" ref={svgContainerRef}>
         <svg
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"
